@@ -24,6 +24,8 @@ export const metadata: Metadata = {
   },
   description:
     "Cushion covers, pillow covers, dressing mats, side table mats, tissue boxes and trays in soft sage, blush and linen tones.",
+  // Shared by link only: keep the site out of search engine results.
+  robots: { index: false, follow: false },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
